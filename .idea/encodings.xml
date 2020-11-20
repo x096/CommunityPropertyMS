@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/com/community/db/DBConnection.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/community/model/login/User.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/community/model/login/Userinfo.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/community/util/JDBCConn.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/community/util/JDBCUtil.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/community/view/MainFrame.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/community/view/login/Login.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/community/view/login/register.java" charset="GBK" />
+  </component>
+</project>
