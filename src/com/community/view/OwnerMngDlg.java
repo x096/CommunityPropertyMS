@@ -229,13 +229,14 @@ public class OwnerMngDlg extends JFrame {
 		this.fillTable(new Owner());
 		
 	}
+
 	/**
-	 * 修改事件
-	 * @param e
+	 *
+	 * @param evt
 	 */
 	protected void updateActionPerformed(ActionEvent evt) {
-		String roomNo = this.txt1.getText();
-		String ownerNo = this.txt2.getText();
+		String roomNo = this.txt2.getText();
+		String ownerNo = this.txt1.getText();
 		String ownerName = this.txt3.getText();
 		String ownerPhone = this.txt4.getText();
 		if (StringUtil.isEmpty(roomNo)) {
@@ -310,8 +311,8 @@ public class OwnerMngDlg extends JFrame {
 	}
 
 	/**
-	 * 添加事件
-	 * @param e
+	 *
+	 * @param evt
 	 */
 	protected void addActionPerformed(ActionEvent evt) {
 		String roomNo = this.txt1.getText();
@@ -366,8 +367,8 @@ public class OwnerMngDlg extends JFrame {
 	protected void resetValueActionPerformed(ActionEvent e) {
 		this.resetValue();
 	}
-	
-	
+
+
 	/**
 	 * 重置表单
 	 */
@@ -379,9 +380,8 @@ public class OwnerMngDlg extends JFrame {
 	}
 
 	/**
-	 * 模糊查询
-	 * 
-	 * @param roomNo
+	 *
+	 * @param ownerNo
 	 */
 	protected void fillTable(String ownerNo) {
 		DefaultTableModel dtm = (DefaultTableModel) table.getModel();

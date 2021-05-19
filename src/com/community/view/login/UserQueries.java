@@ -4,11 +4,8 @@ import java.awt.Component;
 import java.awt.EventQueue;
 import java.sql.Connection;
 import java.sql.ResultSet;
-import java.sql.SQLException;
 import java.util.Vector;
 
-import javax.naming.spi.DirStateFactory.Result;
-import javax.swing.AbstractButton;
 import javax.swing.GroupLayout;
 import javax.swing.GroupLayout.Alignment;
 import javax.swing.JButton;
@@ -73,13 +70,13 @@ public class UserQueries extends JFrame {
 			public void actionPerformed(ActionEvent e) {
 				/**
 				 * 锟斤拷锟斤拷锟斤拷锟斤拷穹椒锟�
-				 * 
+				 *
 				 */
 				filltable(new property());
-				
+
 			}
 		});
-		
+
 		Fangtable = new JScrollPane();
 		
 		textField = new JTextField();
@@ -161,12 +158,12 @@ public class UserQueries extends JFrame {
 		
 	}
 	
-	
+
 	/**
 	 * 锟斤拷始锟斤拷锟斤拷锟�
 	 * 锟斤拷锟斤拷锟�
 	 * 锟斤拷锟斤拷锟捷匡拷锟饺★拷锟斤拷锟�
-	 * 
+	 *
 	 */
 	private void filltable(property pp) {
 		DefaultTableModel dtm = (DefaultTableModel) table_1.getModel();
@@ -185,12 +182,12 @@ public class UserQueries extends JFrame {
 				v.add(rt.getString("qu"));
 				dtm.addRow(v);
 			}
-			
+
 		} catch (Exception e) {
 		}
-	
-				
-		
-		
+
+
+
+
 	}
 }

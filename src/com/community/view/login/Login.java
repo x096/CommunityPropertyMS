@@ -89,7 +89,8 @@ public class Login extends JFrame {
                 String pwd = new String(userPwd.getText());
 
                 User user = new User(name, pwd);    //传参给构造方法 实现赋值
-                User currentUser = UserDao.login(user);    //接收结果
+                UserDao userDao = null;
+                User currentUser = userDao.login(user);    //接收结果
                 if (currentUser != null) {
                     JOptionPane.showMessageDialog(null, "登录成功");
                     MainFrame frame = new MainFrame();

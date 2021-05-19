@@ -11,9 +11,9 @@ import java.util.Collection;
 import java.util.List;
 
 public class PropertyDao {
-	
+
 	/**
-	 * ȫ��ѯ
+	 *
 	 * @param conn
 	 * @param pt
 	 * @return
@@ -21,7 +21,7 @@ public class PropertyDao {
 	public ResultSet getFangWu(Connection conn, property pt) {
 		ResultSet rs = null;
 		PreparedStatement pst = null;
-		String sql = "select * from property";
+		String sql = "select * from property1";
 		try {
 			pst = conn.prepareStatement(sql);
 			rs = pst.executeQuery();

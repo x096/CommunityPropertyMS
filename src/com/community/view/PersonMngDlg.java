@@ -340,8 +340,8 @@ public class PersonMngDlg extends JFrame {
 	}
 
 	/**
-	 * Ìí¼ÓÊÂ¼þ
-	 * @param e
+	 *
+	 * @param ae
 	 */
 	protected void addActionPerformed(ActionEvent ae) {
 		String name = this.txt1.getText();

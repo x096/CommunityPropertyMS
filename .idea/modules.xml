@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/community.iml" filepath="$PROJECT_DIR$/community.iml" />
-      <module fileurl="file://$PROJECT_DIR$/untitled1/untitled1.iml" filepath="$PROJECT_DIR$/untitled1/untitled1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javacommunity.iml" filepath="$PROJECT_DIR$/javacommunity.iml" />
     </modules>
   </component>
 </project>

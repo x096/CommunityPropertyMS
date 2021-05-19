@@ -1,13 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/com/community/dao/ApplicationDao.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/community/dao/ArrearsDao.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/community/dao/BaseDao.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/community/dao/ComplaintDao.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/community/dao/ConfigureDao.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/community/dao/OwnerDao.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/community/dao/ParkingLotDao.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/community/dao/PayNoteDao.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/community/dao/PayServiceDao.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/community/dao/PersonDao.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/community/dao/PositionDao.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/community/dao/PropertyDao.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/community/dao/login/PropertyDao.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/community/dao/login/UserDao.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/com/community/db/DBConnection.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/community/db/StringUtil.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/community/model/Application.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/community/model/Arrears.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/community/model/Complaint.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/community/model/Configure.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/community/model/Owner.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/community/model/ParkingLot.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/community/model/PayNote.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/community/model/PayService.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/community/model/Person.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/community/model/Position.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/community/model/Property.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/com/community/model/login/User.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/com/community/model/login/Userinfo.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/community/model/login/property.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/com/community/util/JDBCConn.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/com/community/util/JDBCUtil.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/com/community/view/MainFrame.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/community/view/ArrearsMngDlg.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/community/view/PropertyMngDlg.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/com/community/view/login/Login.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/community/view/login/UserInfo.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/com/community/view/login/register.java" charset="GBK" />
+    <file url="PROJECT" charset="GBK" />
   </component>
 </project>

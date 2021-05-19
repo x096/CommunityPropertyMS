@@ -43,7 +43,7 @@ public class PropertyMngDlg extends JFrame {
 	private JPanel contentPane;
 	private JTable table;
 	private JTextField txt11;
-	private JTextField txt22;
+	private JTextField buildingTxt;
 	private JTextField txt33;
 	private JTextField txt;
 	private JTextField txt1;
@@ -169,10 +169,10 @@ public class PropertyMngDlg extends JFrame {
 		label_1.setBounds(138, 27, 37, 56);
 		panel1.add(label_1);
 
-		txt22 = new JTextField();
-		txt22.setColumns(10);
-		txt22.setBounds(171, 43, 66, 21);
-		panel1.add(txt22);
+		buildingTxt = new JTextField();
+		buildingTxt.setColumns(10);
+		buildingTxt.setBounds(171, 43, 66, 21);
+		panel1.add(buildingTxt);
 
 		JLabel label_2 = new JLabel("\u5C42\uFF1A");
 		label_2.setFont(new Font("宋体", Font.PLAIN, 18));
@@ -345,15 +345,14 @@ public class PropertyMngDlg extends JFrame {
 
 
 	/**
-	 * 楼盘添加事件处理
-	 * 
-	 * @param e
+	 *
+	 * @param evt
 	 */
 	protected void propertyActionPerformed(ActionEvent evt) {
 		String block = this.txt1.getText();
 		String building = this.txt2.getText();
-		String floor = this.txt3.getText();
-		String roomNo = this.txt4.getText();
+		String floor = this.txt4.getText();
+		String roomNo = this.txt3.getText();
 		if (StringUtil.isEmpty(block)) {
 			JOptionPane.showMessageDialog(null, "区号不能为空！");
 			return;
@@ -401,9 +400,8 @@ public class PropertyMngDlg extends JFrame {
 	}
 
 	/**
-	 * 楼盘信息修改事件处理
-	 * 
-	 * @param e
+	 *
+	 * @param evt
 	 */
 	private void bookUpdateActionPerformed(ActionEvent evt) {
 		String block = this.txt1.getText();

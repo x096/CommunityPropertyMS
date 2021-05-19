@@ -338,9 +338,8 @@ public class ComplaintMngDlg extends JFrame {
 	}
 
 	/**
-	 * 添加事件
-	 * 
-	 * @param e
+	 *
+	 * @param ae
 	 */
 	protected void addActionPerformed(ActionEvent ae) {
 		String complainant = this.txt1.getText();
@@ -393,8 +392,7 @@ public class ComplaintMngDlg extends JFrame {
 	}
 
 	/**
-	 * 重置事件处理
-	 * 
+	 *
 	 * @param e
 	 */
 	protected void resetValueActionPerformed(ActionEvent e) {
@@ -413,9 +411,8 @@ public class ComplaintMngDlg extends JFrame {
 	}
 
 	/**
-	 * 查询事件处理
-	 * 
-	 * @param owner
+	 *
+	 * @param e
 	 */
 	private void searchActionPerformed(ActionEvent e) {
 		String complainant = this.txt1.getText();
@@ -436,9 +433,8 @@ public class ComplaintMngDlg extends JFrame {
 	}
 
 	/**
-	 * 填充表格
-	 * 
-	 * @param owner
+	 *
+	 * @param complaint
 	 */
 
 	private void fillTable(Complaint complaint) {
@@ -481,10 +477,10 @@ public class ComplaintMngDlg extends JFrame {
 		txt4.setText(matter);
 		txt5.setText(state);
 	}
+
 	/**
-	 * 模糊查询
-	 * 
-	 * @param roomNo
+	 *
+	 * @param complainant
 	 */
 	protected void fillTable(String complainant) {
 		DefaultTableModel dtm = (DefaultTableModel) table.getModel();
